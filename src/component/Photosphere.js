@@ -17,11 +17,10 @@ function Photosphere(props) {
       plugins: [MarkersPlugin,VirtualTourPlugin]
     });
 
-    // unmount component instructions
     return () => {
       shperePlayerInstance.destroy();
     };
-  }, [src, sphereElementRef]); // will only be called when the src prop gets updated
+  }, [src, sphereElementRef]);
 
   return <div className="ratio ratio-16x9 m-auto p-auto" ref={sphereElementRef} ></div>
 }
