@@ -1,5 +1,4 @@
 import Photo from './component/Photo';
-// import img360 from "./img/360.jpeg";
 import img_P8 from "./img/P8.JPG";
 
 function App() {
