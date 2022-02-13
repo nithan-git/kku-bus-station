@@ -7,7 +7,6 @@ import { VirtualTourPlugin } from "photo-sphere-viewer/dist/plugins/virtual-tour
 import "photo-sphere-viewer/dist/plugins/virtual-tour.css";
 import images from "../img/Images.js";
 
-
 function BusStationPhotosphere() {
   const sphereElementRef = useRef();
 
@@ -25,21 +24,91 @@ function BusStationPhotosphere() {
             dataMode: "client",
             nodes: [
               {
+                id: "1",
+                panorama: images["P1.jpg"],
+                name: "P1",
+                position: [102.81532, 16.469671666666667],
+                links: [{ nodeId: "2" },{ nodeId: "3" }],
+              },
+              {
+                id: "2",
+                panorama: images["P2.jpg"],
+                name: "P2",
+                position: [102.81639888888888, 16.469959999999997],
+                links: [{ nodeId: "1" },{ nodeId: "16" },{ nodeId: "3" }],
+              },
+              {
+                id: "3",
+                panorama: images["P3.jpg"],
+                name: "P3",
+                position: [102.81606277777777, 16.469038055555554],
+                links: [{ nodeId: "1" },{ nodeId: "2" }],
+              },
+              {
                 id: "7",
                 panorama: images["P7.JPG"],
                 name: "P7",
                 position: [102.827994, 16.472422],
-                links: [{ nodeId: "8" }],
+                links: [{ nodeId: "8" },{ nodeId: "10" }],
               },
               {
                 id: "8",
                 panorama: images["P8.JPG"],
                 name: "P8",
                 position: [102.826542, 16.4743],
-                links: [{ nodeId: "7" }],
+                links: [{ nodeId: "7" },{ nodeId: "10" }],
+              },
+              {
+                id: "10",
+                panorama: images["P10.JPG"],
+                name: "P10",
+                position: [102.82826666666666, 16.47458611111111],
+                links: [{ nodeId: "7" },{ nodeId: "8" },{ nodeId: "11" }],
+              },
+              {
+                id: "11",
+                panorama: images["P11.JPG"],
+                name: "P11",
+                position: [102.82633333333332, 16.47677222222222],
+                links: [{ nodeId: "10" },{ nodeId: "12" }],
+              },
+              {
+                id: "12",
+                panorama: images["P12.JPG"],
+                name: "P12",
+                position: [102.8229861111111, 16.47712222222222],
+                links: [{ nodeId: "11" },{ nodeId: "13" }],
+              },
+              {
+                id: "13",
+                panorama: images["P13.JPG"],
+                name: "P13",
+                position: [102.82086388888888, 16.47748611111111],
+                links: [{ nodeId: "12" },{ nodeId: "14" }],
+              },
+              {
+                id: "14",
+                panorama: images["P14.JPG"],
+                name: "P14",
+                position: [102.81878611111111, 16.477641666666663],
+                links: [{ nodeId: "13" },{ nodeId: "15" }],
+              },
+              {
+                id: "15",
+                panorama: images["P15.jpg"],
+                name: "P15",
+                position: [102.81607444444444, 16.47636972222222],
+                links: [{ nodeId: "14" },{ nodeId: "16" }],
+              },
+              {
+                id: "16",
+                panorama: images["P16.jpg"],
+                name: "P16",
+                position: [102.81648055555556, 16.473229166666666],
+                links: [{ nodeId: "15" },{ nodeId: "2" }],
               },
             ],
-            startNodeId: "7",
+            startNodeId: "1",
           },
         ],
       ],
