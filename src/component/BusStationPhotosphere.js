@@ -8,9 +8,8 @@ import "photo-sphere-viewer/dist/plugins/virtual-tour.css";
 import images from "../img/Images.js";
 
 
-function Photosphere(props) {
+function BusStationPhotosphere() {
   const sphereElementRef = useRef();
-  const { src } = props;
 
   useEffect(() => {
     const shperePlayerInstance = new Viewer({
@@ -31,7 +30,6 @@ function Photosphere(props) {
                 name: "P7",
                 position: [102.827994, 16.472422],
                 links: [{ nodeId: "8" }],
-                sphereCorrection: { pan: -0.35, tilt: 0, roll: 0 },
               },
               {
                 id: "8",
@@ -39,7 +37,6 @@ function Photosphere(props) {
                 name: "P8",
                 position: [102.826542, 16.4743],
                 links: [{ nodeId: "7" }],
-                sphereCorrection: { pan: 0.5, tilt: 0, roll: 0 },
               },
             ],
             startNodeId: "7",
@@ -51,7 +48,7 @@ function Photosphere(props) {
     return () => {
       shperePlayerInstance.destroy();
     };
-  }, [src, sphereElementRef]);
+  }, [sphereElementRef]);
 
   return (
     <div
@@ -61,4 +58,4 @@ function Photosphere(props) {
   );
 }
 
-export default Photosphere;
+export default BusStationPhotosphere;
