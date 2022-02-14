@@ -1,11 +1,19 @@
-import BusStationPhotosphere from './component/BusStationPhotosphere';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from './component/Footer';
+import Header from './component/Header';
+import Home from './page/Home';
+
+
 
 function App() {
   return (
-    <div className="container-fluid bg-dark text-light p-5 text-center">
-      <h1>hello</h1>
-      <BusStationPhotosphere/>
-    </div>
+    <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route index element={<Home/>} />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 
