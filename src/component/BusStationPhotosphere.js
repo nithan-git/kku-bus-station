@@ -167,7 +167,7 @@ function BusStationPhotosphere() {
                 links: [{ nodeId: "15" }, { nodeId: "2" }],
               },
             ],
-            startNodeId: "9",
+            startNodeId: "1",
           },
         ],
       ],
