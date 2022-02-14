@@ -4,6 +4,7 @@ function Header() {
   return (
     <>
       <nav>
+        <Link to="/" class="logo">kku bus station</Link>
         <ul>
           <li>
             <Link to="/">Home</Link>

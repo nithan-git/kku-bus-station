@@ -863,7 +863,7 @@ function BusStationPhotosphere() {
                 ],
               },
             ],
-            startNodeId: "15",
+            startNodeId: "1",
           },
         ],
       ],
