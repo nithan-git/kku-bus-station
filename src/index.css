@@ -19,7 +19,7 @@ code {
 
 nav{
   background: rgb(47, 70, 98);
-  padding: 1rem;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
