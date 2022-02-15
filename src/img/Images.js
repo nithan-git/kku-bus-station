@@ -3,6 +3,6 @@ function importAll(r) {
     r.keys().map((item, index) => { return images[item.replace('./', '')] = r(item).default; });
     return images;
 }
-const images = importAll(require.context('./', false, /\.(png|jpe?g|svg|JPG)$/));
+const images = importAll(require.context('./', false, /\.(png|jpe?g|svg|JPG|gif)$/));
 
 export default images;
