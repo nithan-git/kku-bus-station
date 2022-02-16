@@ -56,6 +56,23 @@ nav ul li a:hover{
   background: #ffff;
   color: rgb(0, 0, 0);
 }
+.profile{
+  display: flex;
+  justify-content: space-around;
+}
+.profile img{
+  width: 300px;
+  height: 350px;
+  border-radius: 50px;
+}
+.detail{
+  margin-top: 2rem;
+
+}
+.detail p{
+  font-size: 30px;
+}
+
 .footer{
   background:rgb(47, 70, 98);
   color: #ffff;
