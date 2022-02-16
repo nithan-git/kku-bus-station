@@ -82,7 +82,7 @@ function BusStationPhotosphere() {
                     width: 32,
                     height: 32,
                     tooltip: {
-                      content: "อุทยานแปลงเกษตร มข",
+                      content: "แปลงเกษตร มข",
                       position: "top center",
                     },
                   },
@@ -121,6 +121,14 @@ function BusStationPhotosphere() {
                       content: "การสื่อสารองค์กร มหาวิทยาลัยขอนแก่น",
                       position: "top center",
                     },
+                    content: `<h1>การสื่อสารองค์กรมหาวิทยาลัยขอนแก่น</h1>
+                              <img class="img-fluid my-3" src="img/P1-marker-5.jpg" alt="การสื่อสารองค์กรมหาวิทยาลัยขอนแก่น">
+                              <p class="lh-1 text-start" style = "text-indent:1cm;">
+                              การบริหารจัดการด้านการประชาสัมพันธ์ สื่อสารและกิจกรรมเพื่อส่งเสริมในการสร้างภาพลักษณ์ที่ดีของมหาวิทยาลัย 
+                              การประชาสัมพันธ์เผยแพร่ข่าวสารของมหาวิทยาลัยให้ชุมชน สังคม หรือสาธารณชน 
+                              หรือองค์กรทั้งภายในและภายนอกมหาวิทยาลัยได้รับทราบพร้อมทั้งการสร้างความเข้าใจที่ดี 
+                              การผลิตสื่อประชาสัมพันธ์ที่หลากหลายประเภท
+                              </p>`,
                   },
                 ],
               },
@@ -486,7 +494,7 @@ function BusStationPhotosphere() {
                     width: 32,
                     height: 32,
                     tooltip: {
-                      content: "อาคารรัตนพิทยา",
+                      content: "ที่รอรถบัส",
                       position: "top center",
                     },
                   },
@@ -498,19 +506,7 @@ function BusStationPhotosphere() {
                     width: 32,
                     height: 32,
                     tooltip: {
-                      content: "ตึก GL",
-                      position: "top center",
-                    },
-                  },
-                  {
-                    id: "P10-marker-5",
-                    image: images["pin-red.png"],
-                    longitude: 4.258,
-                    latitude: 0.173,
-                    width: 32,
-                    height: 32,
-                    tooltip: {
-                      content: "ศูนย์อาหาร คณะบริหารธุรกิจและการบัญชี",
+                      content: "สถาบันความร่วมมือเพื่อพัฒนาเศรษฐกิจลุ่มน้ำโขง",
                       position: "top center",
                     },
                   },
@@ -560,7 +556,7 @@ function BusStationPhotosphere() {
                     },
                   },
                   {
-                    id: "P10-marker-4",
+                    id: "P11-marker-4",
                     image: images["pin-red.png"],
                     longitude: 5.529,
                     latitude: 0.111,
@@ -726,7 +722,7 @@ function BusStationPhotosphere() {
                     width: 32,
                     height: 32,
                     tooltip: {
-                      content: "พอพักในชายที่ 8",
+                      content: "หอพักในชายที่ 8",
                       position: "top center",
                     },
                   },
@@ -895,7 +891,7 @@ function BusStationPhotosphere() {
                 ],
               },
             ],
-            startNodeId: "1",
+            startNodeId: "7",
           },
         ],
       ],
