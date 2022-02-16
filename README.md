@@ -1,3 +1,11 @@
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 # Firebase host link
 https://kkubusstationparnoma360degree.web.app/
 
