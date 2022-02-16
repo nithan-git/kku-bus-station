@@ -1,7 +1,11 @@
+import images from "../img/Images.js";
 
 function Map() {
   return (
-    <h1>Map Page</h1>
+    <div className="container-fluid text-center">
+      <img className="img-fluid m-5" src={images['map.jpg']} alt="map"></img>
+    </div>
+    
   );
 }
 

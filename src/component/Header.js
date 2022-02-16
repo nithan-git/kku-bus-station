@@ -3,16 +3,16 @@ import { Outlet, Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      <nav>
-        <Link to="/" class="logo">kku bus station</Link>
-        <ul>
-          <li>
+      <nav className="navbar navbar-expand-lg">
+        <Link to="/" className="logo">kku bus station</Link>
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <li className="nav-item">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="nav-item">
             <Link to="/Map">Map</Link>
           </li>
-          <li>
+          <li className="nav-item">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
