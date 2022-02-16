@@ -891,7 +891,7 @@ function BusStationPhotosphere() {
                 ],
               },
             ],
-            startNodeId: "7",
+            startNodeId: "1",
           },
         ],
       ],
