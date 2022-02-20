@@ -3,7 +3,7 @@ import images from "../img/Images.js";
 function Map() {
   return (
     <div className="text-center bg-dark">
-      <div className="main-box bg-white text-center">
+      <div className="main-box text-center">
         <div className="scroll-box">
           <img className="bus-img img-fluid m-5" src={images['kku-bus.png']} alt="kku-bus"></img>
           <div className="main-det">
