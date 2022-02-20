@@ -77,3 +77,28 @@ nav ul li a:hover{
   background:rgb(47, 70, 98);
   color: #ffff;
 }
+.scroll-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+.main-det{
+  background: rgb(171, 44, 171);
+  padding: 2rem;
+  color: white;
+  border-radius: 25px;
+}
+.main-box .main-det p{
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.main-box .scroll-box{
+  transform:translateX(100%);
+  animation: scroll-right 25s linear infinite;
+}
+@keyframes scroll-right {
+  100%{ transform: translateX(100%);}
+  0% {transform: translateX(-100%);}
+}
