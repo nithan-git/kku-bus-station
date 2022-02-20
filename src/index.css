@@ -94,9 +94,18 @@ nav ul li a:hover{
   text-transform: uppercase;
   font-size: 30px;
 }
+.main-box{
+  height: 500px;
+  width: 100%;    
+  overflow: hidden;
+  position: relative;
+}
 .main-box .scroll-box{
+  width: 100%;
   transform:translateX(100%);
-  animation: scroll-right 25s linear infinite;
+  position: absolute;
+  overflow: hidden;
+  animation: scroll-right 10s linear infinite;
 }
 @keyframes scroll-right {
   100%{ transform: translateX(100%);}
