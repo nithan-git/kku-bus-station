@@ -1215,7 +1215,7 @@ function BusStationPhotosphere() {
                     content:`<h1>ที่จอดรถบัส</h1>
                     <img class="img-fluid my-3" src="img/P16-marker-2.jpg" alt="ที่จอดรถบัส">
                     <p class="lh-1 text-start" style = "text-indent:1cm;">
-                    ป่าไม้ที่มองดูก็ร่มเย็น เหมือนฟังธรรมะอาจารย์เฮง
+                    ที่รอรถบัสสำหรับ สายสีม่วง
                     </p>`,
                   },
                   {
